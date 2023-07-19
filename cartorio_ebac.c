@@ -66,7 +66,7 @@ int consulta() //Função responsável por consultar os usuários no sistema
 	char cpf[40];
 	char conteudo[200];
 	
-	printf("Digite o CPF a ser consultado: ");
+	printf("Digite o CPF a ser consultado: "); 
 	scanf("%s", cpf);
 	
 	FILE *file;
@@ -111,7 +111,6 @@ int main()
 {
 	int opcao = 0; //definindo a variável
 	int laco = 1;
-	
 	char senhadigitada[10]="a";
 	int comparacao;
 	
@@ -125,9 +124,8 @@ int main()
 	{	
 		system("cls");
 		for(laco=1;laco=1;)
-		{
-			system("cls");
-			
+		{	
+				
 			setlocale(LC_ALL, "Portuguese"); //definindo a linguagem
 			
 			printf("### Cartório da EBAC ###\n\n"); //início do menu
